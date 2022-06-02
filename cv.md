@@ -22,6 +22,7 @@
 * VS Code
 * Postman
 * Jira
+* Perfect Pixel
 
 ************************
 
@@ -46,4 +47,4 @@ Belarusian State Technological University
 
 ## Language
 
-English level - B2
+level - B2
