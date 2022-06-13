@@ -13,6 +13,9 @@
     font-style: normal;
     font-display: swap;
 }
+html{
+    height:100%;
+}
 
 body {
     display: flex;
@@ -20,7 +23,9 @@ body {
     justify-content: space-between;
     align-items: center;
     min-width: 1440px;
-    height:100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -67,6 +72,7 @@ body {
 .main{
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
     align-items: center;
 }
 
@@ -171,4 +177,21 @@ body {
  .language-item-link{
     text-decoration: none;
     color: #000000;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+   width:1065px;
+   margin-top:auto;
+    background-color: #d6d9ba;
+}
+.footer-list{
+display: flex;
+list-style-type: none;
+}
+
+.footer-item{
+    padding:10px;
+    margin: 20px;
 }
